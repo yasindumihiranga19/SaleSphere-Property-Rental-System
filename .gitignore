@@ -1,0 +1,31 @@
+
+# IntelliJ IDEA / Eclipse / VS Code
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
+
+# Maven build
+target/
+out/
+
+# Java compiled files
+*.class
+*.war
+*.jar
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
